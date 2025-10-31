@@ -1,0 +1,95 @@
+using DG.Tweening;
+using System;
+using UnityEngine;
+using UnityEngine.UI;
+public class BasePopup : PanelBase
+{
+    public override UIType Type => UIType.Win;
+
+    [SerializeField] Button _btnClose;
+    [SerializeField] protected Image mask;
+    [SerializeField] protected CanvasGroup mainGroup;
+    [SerializeField] protected GameObject main;
+
+    [SerializeField] float targetMaskAlpha = 0.9f;
+    [SerializeField] float timeTween = 0.4f;
+    [SerializeField] Ease typeTweenShow = Ease.OutBack;
+    [SerializeField] Ease typeTweenHide = Ease.InBack;
+
+
+    public virtual void Awake()
+    {
+        Initialize();
+        _btnClose?.onClick.AddListener(OnClickHide);
+    }
+
+    public virtual void OnClickHide()
+    {
+        Hide();
+    }
+
+    public virtual void Initialize()
+    {
+        mask.raycastTarget = false;
+
+        Color color = mask.color;
+        color.a = 0;
+        mask.color = color;
+
+        main.SetActive(false);
+        mainGroup.blocksRaycasts = false;
+    }
+
+    public override void Show()
+    {
+        ShowMask(true);
+        ShowMain();
+    }
+
+    public override void Hide()
+    {
+        ShowMask(false);
+        HideMain();
+    }
+
+    public virtual void ShowMain(Action actionDone = default)
+    {
+        main.transform.DOKill();
+
+        mainGroup.blocksRaycasts = false;
+
+        main.transform.DOScale(Vector3.one, timeTween).From(0.4f).SetEase(typeTweenShow).OnComplete(() =>
+        {
+            mainGroup.blocksRaycasts = true;
+            actionDone?.Invoke();
+        });
+        main.SetActive(true);
+    }
+
+    public virtual void HideMain(Action actionDone = default)
+    {
+        main.transform.DOKill();
+        mainGroup.blocksRaycasts = false;
+
+        main.transform.DOScale(Vector3.zero, timeTween).From(Vector3.zero).SetEase(typeTweenHide).OnComplete(() =>
+        {
+            main.SetActive(false);
+            actionDone?.Invoke();
+        });
+    }
+
+    public void ShowMask(bool isShow)
+    {
+        mask.DOKill();
+        Color color = mask.color;   
+        if (isShow)
+        {
+            mask.raycastTarget = true;
+            mask.DOFade(targetMaskAlpha, timeTween).From(0).SetEase(Ease.Linear);
+        }
+        else
+        {
+            mask.DOFade(0f, timeTween).From(targetMaskAlpha).SetEase(Ease.Linear).OnComplete(() => mask.raycastTarget = false);
+        }
+    }
+}
