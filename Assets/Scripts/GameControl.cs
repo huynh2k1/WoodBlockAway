@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameControl : BaseGameCtrl
 {
     public static GameControl I;
+    public LevelCtrl levelCtrl;
     public UIControl uiCtrl;
     public GameState State;
     private void Awake()
@@ -53,11 +54,13 @@ public class GameControl : BaseGameCtrl
         State = GameState.Playing;
         uiCtrl.Show(UIType.Game);
         uiCtrl.Hide(UIType.Home);
+        levelCtrl.InitLevel();
     }
 
     public override void ReplayGame()
     {
         State = GameState.Playing;
+        levelCtrl.InitLevel();
     }
 
     public override void WinGame()

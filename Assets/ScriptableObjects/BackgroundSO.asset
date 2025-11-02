@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803580876b2b68b4d9d0334151b5a07f, type: 3}
+  m_Name: BackgroundSO
+  m_EditorClassIdentifier: 
+  data:
+  - bgIcon: {fileID: 21300000, guid: dd0ea9b3228324846aa9249f3a3d9f8f, type: 3}
+    bgTexture: {fileID: 21300000, guid: ee8bcb443bb5b2340b0ef5bccc18ca0f, type: 3}
+  - bgIcon: {fileID: 21300000, guid: f8e0861e47346d54aa821623b76fb40d, type: 3}
+    bgTexture: {fileID: 21300000, guid: 379a2e9a6d9d139439d976a756ccc93b, type: 3}
+  - bgIcon: {fileID: 21300000, guid: 647db7e4dfce052478d7a335bf75a63e, type: 3}
+    bgTexture: {fileID: 21300000, guid: fd2684db138bb324792a92e9d44df66a, type: 3}
+  - bgIcon: {fileID: 21300000, guid: a53181bb23454b645843e21623b676c9, type: 3}
+    bgTexture: {fileID: 21300000, guid: 0b1e653ded477b34a995d4a2ff71937f, type: 3}
+  - bgIcon: {fileID: 21300000, guid: 7c0042d3ae61a5e488ea69a8922c9167, type: 3}
+    bgTexture: {fileID: 21300000, guid: 362fd79487aa1c64780982fc8c8b37bc, type: 3}
+  - bgIcon: {fileID: 21300000, guid: 391dcde438bc30f4ea5ef66ffbabd688, type: 3}
+    bgTexture: {fileID: 21300000, guid: a4aa82fd76ae90946bf756ef72f8c1d3, type: 3}

@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
 
-public class BackgroundSO : MonoBehaviour
+[CreateAssetMenu(menuName = "SO/BackgroundSO", fileName = "BackgroundSO")]
+public class BackgroundSO : ScriptableObject
 {
     public BackgroundData[] data;
 }
