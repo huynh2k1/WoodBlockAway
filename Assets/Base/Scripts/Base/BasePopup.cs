@@ -58,7 +58,7 @@ public class BasePopup : PanelBase
 
         mainGroup.blocksRaycasts = false;
 
-        main.transform.DOScale(Vector3.one, timeTween).From(0.4f).SetEase(typeTweenShow).OnComplete(() =>
+        main.transform.DOScale(Vector3.one, timeTween).From(0.6f).SetEase(typeTweenShow).OnComplete(() =>
         {
             mainGroup.blocksRaycasts = true;
             actionDone?.Invoke();

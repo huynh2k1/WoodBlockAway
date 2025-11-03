@@ -25,8 +25,9 @@ public class GameControl : BaseGameCtrl
         UIGame.EventClickSetting += Setting;
         UIGame.EventClickShop += Shop;
 
-        //UIHome
-        UIHome.OnClickPlayButton += PlayGame;
+
+        CompleteUI.OnButtonHomeClick += Home;   
+        CompleteUI.OnButtonNextClick += NextGame;
     }
 
     private void OnDisable()
@@ -37,8 +38,8 @@ public class GameControl : BaseGameCtrl
         UIGame.EventClickSetting -= Setting;
         UIGame.EventClickShop -= Shop;
 
-        //UIHome
-        UIHome.OnClickPlayButton -= PlayGame;
+        CompleteUI.OnButtonHomeClick -= Home;
+        CompleteUI.OnButtonNextClick -= NextGame;
     }
 
     public override void Home()
@@ -63,9 +64,20 @@ public class GameControl : BaseGameCtrl
         levelCtrl.InitLevel();
     }
 
+    public override void NextGame()
+    {
+        State = GameState.Playing;
+        levelCtrl.InitLevel();
+    }
+
     public override void WinGame()
     {
+        PlayerPrefData.Coin += 100;
+        CoinCtrl.I.UpdateCoin();
+
         State = GameState.None;
+        levelCtrl.CheckIncreaseLevel();
+        uiCtrl.Show(UIType.Win);
     }
 
     public void Setting()

@@ -15,7 +15,6 @@ public class Piece : MonoBehaviour
     private HingeJoint _hinge;
     private Renderer _renderer;
 
-    public TransformModel StartTransform;
     public TransformModel CorrectTransform;
 
 
@@ -27,6 +26,9 @@ public class Piece : MonoBehaviour
     public float snapRotationThreshold = 5f;    // độ lệch góc cho phép
 
     public event Action OnPieceSnappedEvent;
+
+    public float offset;
+
     private void Awake()
     {
         Initialize();
@@ -80,10 +82,12 @@ public class Piece : MonoBehaviour
         mousePos.z = distance;
         Vector3 worldMouse = Camera.main.ScreenToWorldPoint(mousePos);
 
-        // Tính góc mục tiêu theo hướng chuột
+        //// Tính góc mục tiêu theo hướng chuột
         Vector3 dir = worldMouse - transform.position;
+        dir.y = 0f;
+        dir.Normalize();
         float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
-
+        Debug.DrawLine(transform.position, transform.position + dir.normalized * 2, Color.red);
         // Hướng quay
         float currentAngle = transform.eulerAngles.y;
         float delta = Mathf.DeltaAngle(currentAngle, targetAngle);

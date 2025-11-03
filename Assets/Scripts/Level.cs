@@ -66,6 +66,7 @@ public class Level : MonoBehaviour
         if (IsAllPieceSnapped())
         {
             Debug.Log("WIN!!!");
+            GameControl.I.WinGame();
         }
     }
 

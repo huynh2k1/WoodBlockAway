@@ -34,7 +34,7 @@ public class ShopElement : MonoBehaviour
 
     public void CheckUnlock()
     {
-        if (PlayerPrefData.IsMapUnlock(ID) == true)
+        if (PlayerPrefData.IsBGUnlock(ID) == true)
             Unlock();
         else
             Lock();

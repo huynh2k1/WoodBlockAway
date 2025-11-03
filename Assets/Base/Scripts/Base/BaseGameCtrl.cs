@@ -9,4 +9,5 @@ public abstract class BaseGameCtrl : MonoBehaviour
     public abstract void WinGame();
     public abstract void ReplayGame();
 
+    public abstract void NextGame();
 }

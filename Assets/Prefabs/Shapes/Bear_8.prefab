@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3519655674134891956}
   - component: {fileID: 1394641845569262048}
   m_Layer: 0
-  m_Name: Gau.004
+  m_Name: "Ch\xE2n ph\u1EA3i"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682180240310111307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: 0.6794939, y: -0.19522677, z: 0.19529492, w: 0.6797312}
   m_LocalPosition: {x: 0.36289597, y: -0, z: 1.1054279}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5089770677633162085}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: 32.06}
 --- !u!33 &3519655674134891956
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -202,8 +202,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5466105541859927338}
-  - {fileID: 192064276135500860}
-  - {fileID: 2660079217439113425}
   - {fileID: 1083836252123127858}
   - {fileID: 617825550204968659}
   - {fileID: 6152476386714547696}
@@ -395,7 +393,7 @@ GameObject:
   - component: {fileID: 8842961701663308342}
   - component: {fileID: 1466049015631721025}
   m_Layer: 0
-  m_Name: Gau.005
+  m_Name: "Th\xE2n Tr\xEAn"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +479,7 @@ GameObject:
   - component: {fileID: 3261261083538210248}
   - component: {fileID: 8012717584918471956}
   m_Layer: 0
-  m_Name: Gau.003
+  m_Name: "\u0110\u1EA7u"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +497,9 @@ Transform:
   m_LocalPosition: {x: 0.38511086, y: -0, z: 1.1781379}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 192064276135500860}
+  - {fileID: 2660079217439113425}
   m_Father: {fileID: 5089770677633162085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3261261083538210248
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 571958404341962029}
   - component: {fileID: 4407801580096645899}
   m_Layer: 0
-  m_Name: Gau.001
+  m_Name: "Tai tr\xE1i"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,13 +581,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8538546750727103732}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.44265556, y: -0, z: 2.1068468}
+  m_LocalRotation: {x: -0.00016409159, y: -0.000059723854, z: -0.3420201, w: 0.9396927}
+  m_LocalPosition: {x: -0.8277664, y: 0.92870885, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5089770677633162085}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1083836252123127858}
+  m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: -40}
 --- !u!33 &571958404341962029
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 6060523578184805693}
   - component: {fileID: 7059240427222449187}
   m_Layer: 0
-  m_Name: Gau.002
+  m_Name: "Tai ph\u1EA3i"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,13 +667,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8785982958111606174}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.49391556, y: -0, z: 1.7240064}
+  m_LocalRotation: {x: -0.00014513732, y: -0.00009709597, z: -0.55593294, w: 0.8312272}
+  m_LocalPosition: {x: 0.1088047, y: 0.54586846, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5089770677633162085}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1083836252123127858}
+  m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: -67.55}
 --- !u!33 &6060523578184805693
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -9,20 +9,32 @@ public class PlayerPrefData
         set => PlayerPrefs.SetInt(ConstUtils.CURLEVEL, value);
     }
 
+    public static int CurLevelUnlock
+    {
+        get => PlayerPrefs.GetInt(ConstUtils.CURLEVELUNLOCK, 0);
+        set => PlayerPrefs.SetInt(ConstUtils.CURLEVELUNLOCK, value);
+    }
+
     public static int Coin
     {
-        get => PlayerPrefs.GetInt(ConstUtils.COIN);
+        get => PlayerPrefs.GetInt(ConstUtils.COIN, 10000);
         set => PlayerPrefs.SetInt(ConstUtils.COIN, value);
     }
 
-    public static bool IsMapUnlock(int id)
+    public static int CurBackgroundID
     {
-        return PlayerPrefs.GetInt(ConstUtils.MAPUNLOCK + id, 0) == 1 ? true : false; 
+        get => PlayerPrefs.GetInt(ConstUtils.CURBGID);
+        set => PlayerPrefs.SetInt(ConstUtils.CURBGID, value);
     }
 
-    public static void SetMapUnlock(int id, bool value)
+    public static bool IsBGUnlock(int id)
     {
-        PlayerPrefs.SetInt(ConstUtils.MAPUNLOCK + id, value ? 1 : 0);
+        return PlayerPrefs.GetInt(ConstUtils.BGUNLOCK + id, 0) == 1 ? true : false; 
+    }
+
+    public static void SetBGUnlock(int id, bool value)
+    {
+        PlayerPrefs.SetInt(ConstUtils.BGUNLOCK + id, value ? 1 : 0);
     }
 }
 
@@ -37,5 +49,7 @@ public class ConstUtils
 {
     public static string CURLEVEL = "CURLEVEL";
     public static string COIN = "COIN";
-    public static string MAPUNLOCK = "MAPUNLOCK";
+    public static string BGUNLOCK = "BGUNLOCK";
+    public static string CURBGID = "CURBGID";
+    public static string CURLEVELUNLOCK = "CURLEVELUNLOCK";
 }

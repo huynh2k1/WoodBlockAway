@@ -13,5 +13,6 @@
         Win,
         HowToPlay,
         Setting,
-        Shop
+        Shop,
+        SelectLevel,
     }

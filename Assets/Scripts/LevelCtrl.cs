@@ -11,6 +11,7 @@ public class LevelCtrl : MonoBehaviour
         _curLevel = Instantiate(listLevel[PlayerPrefData.CurLevel], transform);
     }
 
+
     public void CheckIncreaseLevel()
     {
         if(PlayerPrefData.CurLevel < listLevel.Length - 1)
