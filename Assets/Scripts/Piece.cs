@@ -25,8 +25,8 @@ public class Piece : MonoBehaviour
 
     //Dragable
     [Header("Physics Drag Settings")]
-    public float moveSpeed = 5f;
-    public float maxVelocity = 8f;
+    public float moveSpeed = 2f;
+    public float maxVelocity = 2f;
 
     private bool isDragging = false;
     private float dragDepth;
@@ -69,6 +69,8 @@ public class Piece : MonoBehaviour
 
     void HingeSetup()
     {
+        if (IsSnapped)
+            return;
         if (dependentPiece != null)
             hinge.connectedBody = dependentPiece.rb;
         if (hinge == null)
@@ -83,7 +85,6 @@ public class Piece : MonoBehaviour
         if (IsSnapped) return;
         isDragging = true;
 
-
         Vector3 screenPoint = cam.WorldToScreenPoint(transform.position);
         dragDepth = screenPoint.z;
 
@@ -95,6 +96,9 @@ public class Piece : MonoBehaviour
     {
         if (IsSnapped)
             return;
+
+        TrySnap();
+
         if (!isDragging) return;
 
         Vector3 targetPos = GetMouseWorldPosition() + dragOffset;
@@ -109,7 +113,6 @@ public class Piece : MonoBehaviour
         {
             rb.linearVelocity = rb.linearVelocity.normalized * maxVelocity;
         }
-        TrySnap();
     }
 
     private void OnMouseUp()
@@ -150,12 +153,14 @@ public class Piece : MonoBehaviour
 
     private void TrySnap()
     {
-        if (dependentPiece.IsSnapped == false)
+        if (dependentPiece != null && !dependentPiece.IsSnapped)
             return;
         float distance = Vector3.Distance(transform.position, CorrectTransform.Position);
-        float angleDiff = Mathf.Abs(Mathf.DeltaAngle(transform.eulerAngles.y, CorrectTransform.Rotation.y));
+        float angleDiff = Quaternion.Angle(transform.rotation, Quaternion.Euler(CorrectTransform.Rotation));
 
-        if (distance <= snapPositionThreshold && angleDiff <= snapRotationThreshold)
+        //float angleDiff = Mathf.Abs(Mathf.DeltaAngle(transform.eulerAngles.y, CorrectTransform.Rotation.y));
+        Debug.Log($"Distance: {distance}, angleDiff: {angleDiff}");
+        if (!IsSnapped && distance <= snapPositionThreshold && angleDiff <= snapRotationThreshold)
         {
             Snap();
         }

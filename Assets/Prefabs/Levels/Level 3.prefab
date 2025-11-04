@@ -9,34 +9,34 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2466092773625907733}
-  - component: {fileID: 5369350834068563599}
-  - component: {fileID: 6618375592321071365}
-  - component: {fileID: 5629443178476545324}
-  - component: {fileID: 4183875763267058432}
-  - component: {fileID: 6749875764361117922}
-  - component: {fileID: 8507021520381221114}
-  - component: {fileID: 1512681748992665124}
-  - component: {fileID: 5509514754690728390}
-  - component: {fileID: 7748098345167257782}
-  - component: {fileID: 3295321190319268393}
-  - component: {fileID: 1487428754236318592}
-  - component: {fileID: 5444899412703024411}
-  - component: {fileID: 6067071134137729320}
-  - component: {fileID: 814583429794359919}
-  - component: {fileID: 303325580806449069}
-  - component: {fileID: 5994868823983200757}
-  - component: {fileID: 4684174983835251542}
-  - component: {fileID: 4206177804213400674}
-  - component: {fileID: 3984507364832627242}
-  - component: {fileID: 2709595567170469050}
-  - component: {fileID: 1984833759552181512}
-  - component: {fileID: 4536623304853710676}
-  - component: {fileID: 5945441917256948577}
-  - component: {fileID: 8261438819679266066}
-  - component: {fileID: 2686106351693769444}
-  - component: {fileID: 1114092439325891490}
-  - component: {fileID: 3321464396812869352}
-  - component: {fileID: 6702227962276344347}
+  - component: {fileID: 6957300909201811311}
+  - component: {fileID: 6443936242844176669}
+  - component: {fileID: 2241438282801933869}
+  - component: {fileID: 3075856792605698501}
+  - component: {fileID: 675657441100218971}
+  - component: {fileID: 3549797447840500756}
+  - component: {fileID: 1523241012836768068}
+  - component: {fileID: 6906185072925178617}
+  - component: {fileID: 3493096673352055960}
+  - component: {fileID: 3395518330483044934}
+  - component: {fileID: 1406787317622414536}
+  - component: {fileID: 8092341494071971643}
+  - component: {fileID: 514985703848462900}
+  - component: {fileID: 8697791452515955332}
+  - component: {fileID: 7668541429232655839}
+  - component: {fileID: 339133960903113418}
+  - component: {fileID: 7894693167126418512}
+  - component: {fileID: 3428644468616012328}
+  - component: {fileID: 7909802403641966108}
+  - component: {fileID: 6372438272430112159}
+  - component: {fileID: 6545264171436006029}
+  - component: {fileID: 5211382295533465606}
+  - component: {fileID: 4842672013606995664}
+  - component: {fileID: 3652227582290874353}
+  - component: {fileID: 2846855209810214492}
+  - component: {fileID: 3125288999238969364}
+  - component: {fileID: 8924729230589597450}
+  - component: {fileID: 6941957909170359910}
   m_Layer: 0
   m_Name: Colliders
   m_TagString: Untagged
@@ -59,7 +59,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5155522834119339218}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5369350834068563599
+--- !u!65 &6957300909201811311
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,7 +80,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3892952, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.1542638, y: -0.32600322, z: -0.28526375}
---- !u!65 &6618375592321071365
+--- !u!65 &6443936242844176669
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,7 +101,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3593494, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.1392909, y: -0.28253296, z: -0.2852637}
---- !u!65 &5629443178476545324
+--- !u!65 &2241438282801933869
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +122,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3294036, y: 0.08693387, z: 0.5324916}
   m_Center: {x: 0.13929091, y: -0.21733685, z: -0.28526345}
---- !u!65 &4183875763267058432
+--- !u!65 &3075856792605698501
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3443765, y: 0.043466937, z: 0.019017559}
   m_Center: {x: 0.14677729, y: -0.19560118, z: -0.009508797}
---- !u!65 &6749875764361117922
+--- !u!65 &675657441100218971
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,7 +164,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3144307, y: 0.043466937, z: 0.5515092}
   m_Center: {x: 0.1467774, y: -0.1521328, z: -0.2757549}
---- !u!65 &8507021520381221114
+--- !u!65 &3549797447840500756
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,7 +185,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.29945785, y: 0.043466937, z: 0.5515092}
   m_Center: {x: 0.13929085, y: -0.108668305, z: -0.2757549}
---- !u!65 &1512681748992665124
+--- !u!65 &1523241012836768068
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,7 +206,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.26951206, y: 0.0652004, z: 0.5515092}
   m_Center: {x: 0.13929075, y: -0.054333813, z: -0.27575484}
---- !u!65 &5509514754690728390
+--- !u!65 &6906185072925178617
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,7 +227,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23956627, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.24410102, y: -0.35860172, z: -0.28526306}
---- !u!65 &7748098345167257782
+--- !u!65 &3493096673352055960
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,7 +248,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.20962048, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.24410102, y: -0.39120355, z: -0.28526366}
---- !u!65 &3295321190319268393
+--- !u!65 &3395518330483044934
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,7 +269,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22459337, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.26656055, y: -0.43466717, z: -0.28526375}
---- !u!65 &1487428754236318592
+--- !u!65 &1406787317622414536
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,7 +290,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14972892, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.24410097, y: -0.47813553, z: -0.28526354}
---- !u!65 &5444899412703024411
+--- !u!65 &8092341494071971643
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,7 +311,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.11978313, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.24410109, y: -0.5216045, z: -0.28526303}
---- !u!65 &6067071134137729320
+--- !u!65 &514985703848462900
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,7 +332,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.059891567, y: 0.021733468, z: 0.019017559}
   m_Center: {x: 0.22912817, y: -0.57593685, z: -0.561018}
---- !u!65 &814583429794359919
+--- !u!65 &8697791452515955332
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,7 +353,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.059891567, y: 0.043466937, z: 0.5324916}
   m_Center: {x: 0.22912797, y: -0.5650704, z: -0.28526333}
---- !u!65 &303325580806449069
+--- !u!65 &7668541429232655839
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -374,7 +374,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5515092}
   m_Center: {x: 0.22164169, y: -0.6194038, z: -0.2947722}
---- !u!65 &5994868823983200757
+--- !u!65 &339133960903113418
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -395,7 +395,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.22912805, y: -0.5976701, z: -0.28526345}
---- !u!65 &4684174983835251542
+--- !u!65 &7894693167126418512
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,7 +416,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.27404687, y: -0.55420315, z: -0.28526345}
---- !u!65 &4206177804213400674
+--- !u!65 &3428644468616012328
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -437,7 +437,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5515092}
   m_Center: {x: 0.28153327, y: -0.07606708, z: -0.2757546}
---- !u!65 &3984507364832627242
+--- !u!65 &7909802403641966108
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,7 +458,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5515092}
   m_Center: {x: 0.29650626, y: -0.11953402, z: -0.2757546}
---- !u!65 &2709595567170469050
+--- !u!65 &6372438272430112159
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -479,7 +479,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.31147903, y: -0.51073647, z: -0.2852634}
---- !u!65 &1984833759552181512
+--- !u!65 &6545264171436006029
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -500,7 +500,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.3189655, y: -0.24993493, z: -0.28526345}
---- !u!65 &4536623304853710676
+--- !u!65 &5211382295533465606
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -521,7 +521,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.0652004, z: 0.5324916}
   m_Center: {x: 0.31147912, y: -0.20646779, z: -0.2852634}
---- !u!65 &5945441917256948577
+--- !u!65 &4842672013606995664
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -542,7 +542,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.32645196, y: -0.48900312, z: -0.2852634}
---- !u!65 &8261438819679266066
+--- !u!65 &3652227582290874353
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -563,7 +563,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.3339385, y: -0.46726975, z: -0.28526345}
---- !u!65 &2686106351693769444
+--- !u!65 &2846855209810214492
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -584,7 +584,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.3339385, y: -0.29340175, z: -0.28526345}
---- !u!65 &1114092439325891490
+--- !u!65 &3125288999238969364
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,7 +605,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014972892, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.32645196, y: -0.2716684, z: -0.2852634}
---- !u!65 &3321464396812869352
+--- !u!65 &8924729230589597450
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -626,7 +626,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.029945783, y: 0.021733468, z: 0.5324916}
   m_Center: {x: 0.36388406, y: -0.40206912, z: -0.28526345}
---- !u!65 &6702227962276344347
+--- !u!65 &6941957909170359910
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1856,9 +1856,9 @@ GameObject:
   - component: {fileID: 5463397415944869740}
   - component: {fileID: 1508314720444679917}
   - component: {fileID: 6533422763727126714}
-  - component: {fileID: 7633232359198705382}
-  - component: {fileID: 6606662719134573218}
   - component: {fileID: 5767652997280202080}
+  - component: {fileID: 8531530848158241749}
+  - component: {fileID: 1562897168260221023}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -1874,14 +1874,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871717773127248700}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6163439, y: -0.3465836, z: 0.3465836, w: 0.6163439}
+  m_LocalRotation: {x: 0.5953711, y: -0.3814882, z: 0.3814882, w: 0.5953711}
   m_LocalPosition: {x: 0.16, y: 0, z: 0.3927431}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2466092773625907733}
   m_Father: {fileID: 4130731938872279038}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 58.7}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 65.3}
 --- !u!33 &5463397415944869740
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1961,8 +1961,26 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!59 &7633232359198705382
+  m_CollisionDetection: 0
+--- !u!114 &5767652997280202080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871717773127248700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbddf4b61ce1754b9bf9c082e1723f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputTimeMeasurements: 0
+  createChildGameObject: 1
+  avoidGapsInside: 1
+  avoidExceedingMesh: 1
+  boxesPerEdge: 30
+  physicsMaterialForColliders: {fileID: 0}
+--- !u!59 &8531530848158241749
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1997,11 +2015,11 @@ HingeJoint:
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &6606662719134573218
+--- !u!114 &1562897168260221023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2017,31 +2035,13 @@ MonoBehaviour:
   CorrectTransform:
     Position: {x: 0.16, y: 0, z: 0.3927431}
     Rotation: {x: 90, y: 13.999992, z: 0}
-  snapPositionThreshold: 0.2
-  snapRotationThreshold: 5
+  snapPositionThreshold: 0.5
+  snapRotationThreshold: 10
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8298359735797131408}
   dependentPitch: {fileID: 0}
-  moveSpeed: 5
-  maxVelocity: 8
---- !u!114 &5767652997280202080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871717773127248700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fbddf4b61ce1754b9bf9c082e1723f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outputTimeMeasurements: 0
-  createChildGameObject: 1
-  avoidGapsInside: 0
-  avoidExceedingMesh: 1
-  boxesPerEdge: 30
-  physicsMaterialForColliders: {fileID: 0}
+  moveSpeed: 3
+  maxVelocity: 5
 --- !u!1 &991571592250742165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,55 +2051,55 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5744538111852675762}
-  - component: {fileID: 602866618444277405}
-  - component: {fileID: 5038035860757451121}
-  - component: {fileID: 5828936050158855675}
-  - component: {fileID: 8089105672280210080}
-  - component: {fileID: 3934017031812629680}
-  - component: {fileID: 5445242303331601966}
-  - component: {fileID: 2563152973872186378}
-  - component: {fileID: 8100436738475498390}
-  - component: {fileID: 21367460861214336}
-  - component: {fileID: 1075959364537532087}
-  - component: {fileID: 4277263997045312356}
-  - component: {fileID: 8681326370048289768}
-  - component: {fileID: 7308686110100595625}
-  - component: {fileID: 7859352989534014278}
-  - component: {fileID: 5308485896223594683}
-  - component: {fileID: 8521948562893414628}
-  - component: {fileID: 65812791769121028}
-  - component: {fileID: 9068503574156093995}
-  - component: {fileID: 7767447342728475432}
-  - component: {fileID: 7625744171146855560}
-  - component: {fileID: 210292863836538872}
-  - component: {fileID: 2230666816301395572}
-  - component: {fileID: 5131177889217998083}
-  - component: {fileID: 2286997084259041526}
-  - component: {fileID: 4799680052941015985}
-  - component: {fileID: 8684340016427408429}
-  - component: {fileID: 2758260713189824187}
-  - component: {fileID: 7532899650687334810}
-  - component: {fileID: 2541862664856811005}
-  - component: {fileID: 8056935130768536218}
-  - component: {fileID: 5194383486022114656}
-  - component: {fileID: 9187829480449626483}
-  - component: {fileID: 5630251499891197073}
-  - component: {fileID: 6125496016026203574}
-  - component: {fileID: 5181778658696294620}
-  - component: {fileID: 2638455978719977179}
-  - component: {fileID: 5438218065353620263}
-  - component: {fileID: 3835432428738386883}
-  - component: {fileID: 1905967500743971261}
-  - component: {fileID: 2242166256627019639}
-  - component: {fileID: 3834730901519800594}
-  - component: {fileID: 8904550402762275899}
-  - component: {fileID: 3571482455128370935}
-  - component: {fileID: 3606949998056805047}
-  - component: {fileID: 2217233324025181196}
-  - component: {fileID: 4020999843590507113}
-  - component: {fileID: 63278984107152994}
-  - component: {fileID: 4995941553689342686}
-  - component: {fileID: 2079890688155177776}
+  - component: {fileID: 3692661094761673735}
+  - component: {fileID: 8479040871700370677}
+  - component: {fileID: 9079238287631835178}
+  - component: {fileID: 5493529915717999252}
+  - component: {fileID: 3990123567807137871}
+  - component: {fileID: 2745655995806250809}
+  - component: {fileID: 595782596806084906}
+  - component: {fileID: 1092271510434636741}
+  - component: {fileID: 8970423489447148510}
+  - component: {fileID: 3353917168526519738}
+  - component: {fileID: 735668747093068672}
+  - component: {fileID: 1450434053811544981}
+  - component: {fileID: 8463649299860726743}
+  - component: {fileID: 3948844602221006329}
+  - component: {fileID: 4493863610530780451}
+  - component: {fileID: 3478750506532091667}
+  - component: {fileID: 6435498731329272120}
+  - component: {fileID: 5845062143951951506}
+  - component: {fileID: 1037165352262449897}
+  - component: {fileID: 3852867994975768956}
+  - component: {fileID: 562689474877805690}
+  - component: {fileID: 7558514588736936937}
+  - component: {fileID: 4390243595625010729}
+  - component: {fileID: 7740119271855716719}
+  - component: {fileID: 5808722065060164885}
+  - component: {fileID: 1034665852430981561}
+  - component: {fileID: 6234801670311246349}
+  - component: {fileID: 2529466441834696792}
+  - component: {fileID: 2670609876954793654}
+  - component: {fileID: 7575737595596175000}
+  - component: {fileID: 5984454439626956474}
+  - component: {fileID: 7118180333950226875}
+  - component: {fileID: 8619041403462414522}
+  - component: {fileID: 104794410281144297}
+  - component: {fileID: 8047505274478203143}
+  - component: {fileID: 9143420759084532430}
+  - component: {fileID: 1532312083005519166}
+  - component: {fileID: 8192739882680165774}
+  - component: {fileID: 2843481799600111284}
+  - component: {fileID: 8939547040027841393}
+  - component: {fileID: 6502611218173934046}
+  - component: {fileID: 6485736503251971158}
+  - component: {fileID: 3081908778694319099}
+  - component: {fileID: 8455560072381776247}
+  - component: {fileID: 1770364531584351619}
+  - component: {fileID: 5808955824672976022}
+  - component: {fileID: 674755838309955409}
+  - component: {fileID: 1747621634541692444}
+  - component: {fileID: 7542995023446038329}
   m_Layer: 0
   m_Name: Colliders
   m_TagString: Untagged
@@ -2122,7 +2122,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4066378547167437073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &602866618444277405
+--- !u!65 &3692661094761673735
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2143,7 +2143,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18742827, y: 0.059892535, z: 0.5515092}
   m_Center: {x: -0.058023676, y: -0.23956893, z: -0.29477212}
---- !u!65 &5038035860757451121
+--- !u!65 &8479040871700370677
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2164,7 +2164,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18742827, y: 0.059892535, z: 0.5324916}
   m_Center: {x: -0.034595113, y: -0.29946348, z: -0.28526303}
---- !u!65 &5828936050158855675
+--- !u!65 &9079238287631835178
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2185,7 +2185,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.16399974, y: 0.029946268, z: 0.5705268}
   m_Center: {x: -0.04630936, y: -0.19465107, z: -0.28526336}
---- !u!65 &8089105672280210080
+--- !u!65 &5493529915717999252
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2206,7 +2206,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18742827, y: 0.0898388, z: 0.5515092}
   m_Center: {x: -0.011166573, y: -0.3743285, z: -0.29477254}
---- !u!65 &3934017031812629680
+--- !u!65 &3990123567807137871
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2227,7 +2227,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.029946268, z: 0.5705268}
   m_Center: {x: -0.0345951, y: -0.16470478, z: -0.2852634}
---- !u!65 &5445242303331601966
+--- !u!65 &2745655995806250809
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2248,7 +2248,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18742827, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.012261949, y: -0.44919404, z: -0.28526303}
---- !u!65 &2563152973872186378
+--- !u!65 &595782596806084906
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2269,7 +2269,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.029946268, z: 0.5705268}
   m_Center: {x: -0.03459512, y: -0.13475806, z: -0.28526345}
---- !u!65 &8100436738475498390
+--- !u!65 &1092271510434636741
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2290,7 +2290,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.46857065, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.17626156, y: -0.5390324, z: -0.28526366}
---- !u!65 &21367460861214336
+--- !u!65 &8970423489447148510
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2311,7 +2311,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4217136, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.15283315, y: -0.49411103, z: -0.2852633}
---- !u!65 &1075959364537532087
+--- !u!65 &3353917168526519738
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2332,7 +2332,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0702856, y: 0.029946268, z: 0.5705268}
   m_Center: {x: -0.022880835, y: -0.104811974, z: -0.2852634}
---- !u!65 &4277263997045312356
+--- !u!65 &735668747093068672
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2353,7 +2353,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5154277, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.22311853, y: -0.5989187, z: -0.28526366}
---- !u!65 &8681326370048289768
+--- !u!65 &1450434053811544981
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2374,7 +2374,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.029946268, z: 0.5515092}
   m_Center: {x: -0.011166579, y: -0.07486565, z: -0.27575466}
---- !u!65 &7308686110100595625
+--- !u!65 &8463649299860726743
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2395,7 +2395,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5154277, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.24654728, y: -0.65882015, z: -0.28526366}
---- !u!65 &7859352989534014278
+--- !u!65 &3948844602221006329
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2416,7 +2416,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5154277, y: 0.029946268, z: 0.019017559}
   m_Center: {x: 0.24654731, y: -0.64384466, z: -0.561018}
---- !u!65 &5308485896223594683
+--- !u!65 &4493863610530780451
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2437,7 +2437,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4919992, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.25826156, y: -0.70373553, z: -0.28526357}
---- !u!65 &8521948562893414628
+--- !u!65 &3478750506532091667
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2458,7 +2458,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.46857065, y: 0.029946268, z: 0.019017559}
   m_Center: {x: 0.26997584, y: -0.76362985, z: -0.561018}
---- !u!65 &65812791769121028
+--- !u!65 &6435498731329272120
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2479,7 +2479,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.46857065, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.26997572, y: -0.7486569, z: -0.28526366}
---- !u!65 &9068503574156093995
+--- !u!65 &5845062143951951506
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2500,7 +2500,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.5515092}
   m_Center: {x: 0.047404762, y: -0.25454327, z: -0.2947722}
---- !u!65 &7767447342728475432
+--- !u!65 &1037165352262449897
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2521,7 +2521,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.08254754, y: -0.79357564, z: -0.28526345}
---- !u!65 &7625744171146855560
+--- !u!65 &3852867994975768956
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2542,7 +2542,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.5515092}
   m_Center: {x: 0.09426186, y: -0.40427467, z: -0.2947722}
---- !u!65 &210292863836538872
+--- !u!65 &562689474877805690
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2563,7 +2563,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.059892535, z: 0.038035117}
   m_Center: {x: 0.17626168, y: -0.8085492, z: -0.5324916}
---- !u!65 &2230666816301395572
+--- !u!65 &7558514588736936937
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2584,7 +2584,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.059892535, z: 0.15214047}
   m_Center: {x: 0.12940457, y: -0.80854917, z: -0.43740392}
---- !u!65 &5131177889217998083
+--- !u!65 &4390243595625010729
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2605,7 +2605,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.059892535, z: 0.038035117}
   m_Center: {x: 0.17626168, y: -0.8085492, z: -0.34231612}
---- !u!65 &2286997084259041526
+--- !u!65 &7740119271855716719
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2626,7 +2626,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.059892535, z: 0.30428094}
   m_Center: {x: 0.12940466, y: -0.8085487, z: -0.17115802}
---- !u!65 &4799680052941015985
+--- !u!65 &5808722065060164885
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2647,7 +2647,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18742827, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.19969013, y: -0.4641666, z: -0.28526333}
---- !u!65 &8684340016427408429
+--- !u!65 &1034665852430981561
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2668,7 +2668,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.059892535, z: 0.057052676}
   m_Center: {x: 0.19969022, y: -0.8684418, z: -0.5420005}
---- !u!65 &2758260713189824187
+--- !u!65 &6234801670311246349
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2689,7 +2689,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.11978507, z: 0.038035117}
   m_Center: {x: 0.19969022, y: -0.8384955, z: -0.437404}
---- !u!65 &7532899650687334810
+--- !u!65 &2529466441834696792
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2710,7 +2710,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.059892535, z: 0.038035117}
   m_Center: {x: 0.19969021, y: -0.8684419, z: -0.3423161}
---- !u!65 &2541862664856811005
+--- !u!65 &2670609876954793654
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2731,7 +2731,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.11978507, z: 0.17115803}
   m_Center: {x: 0.19969024, y: -0.8384962, z: -0.18066674}
---- !u!65 &8056935130768536218
+--- !u!65 &7575737595596175000
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2752,7 +2752,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.11978507, z: 0.057052676}
   m_Center: {x: 0.19969018, y: -0.8384957, z: -0.047543917}
---- !u!65 &5194383486022114656
+--- !u!65 &5984454439626956474
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2773,7 +2773,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23428532, y: 0.0898388, z: 0.038035117}
   m_Center: {x: 0.2699758, y: -0.82352227, z: -0.49445644}
---- !u!65 &9187829480449626483
+--- !u!65 &7118180333950226875
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2794,7 +2794,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.0898388, z: 0.019017559}
   m_Center: {x: 0.19969021, y: -0.8235225, z: -0.46593013}
---- !u!65 &5630251499891197073
+--- !u!65 &8619041403462414522
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2815,7 +2815,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.0898388, z: 0.057052676}
   m_Center: {x: 0.19969022, y: -0.8235223, z: -0.38986}
---- !u!65 &6125496016026203574
+--- !u!65 &104794410281144297
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2836,7 +2836,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23428532, y: 0.0898388, z: 0.038035117}
   m_Center: {x: 0.2699758, y: -0.82352227, z: -0.30428094}
---- !u!65 &5181778658696294620
+--- !u!65 &8047505274478203143
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2857,7 +2857,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.0898388, z: 0.019017559}
   m_Center: {x: 0.19969021, y: -0.8235225, z: -0.27575466}
---- !u!65 &2638455978719977179
+--- !u!65 &9143420759084532430
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2878,7 +2878,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09371413, y: 0.0898388, z: 0.019017559}
   m_Center: {x: 0.19969021, y: -0.8235225, z: -0.08557904}
---- !u!65 &5438218065353620263
+--- !u!65 &1532312083005519166
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2899,7 +2899,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.057052676}
   m_Center: {x: 0.25826156, y: -0.8834149, z: -0.5420004}
---- !u!65 &3835432428738386883
+--- !u!65 &8192739882680165774
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2920,7 +2920,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.038035117}
   m_Center: {x: 0.25826156, y: -0.88341486, z: -0.43740386}
---- !u!65 &1905967500743971261
+--- !u!65 &2843481799600111284
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2941,7 +2941,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.038035117}
   m_Center: {x: 0.25826156, y: -0.88341486, z: -0.3423161}
---- !u!65 &2242166256627019639
+--- !u!65 &8939547040027841393
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2962,7 +2962,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.17115803}
   m_Center: {x: 0.25826156, y: -0.8834148, z: -0.18066682}
---- !u!65 &3834730901519800594
+--- !u!65 &6502611218173934046
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2983,7 +2983,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.057052676}
   m_Center: {x: 0.25826156, y: -0.8834149, z: -0.047543917}
---- !u!65 &8904550402762275899
+--- !u!65 &6485736503251971158
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3004,7 +3004,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.029946268, z: 0.019017559}
   m_Center: {x: 0.3168329, y: -0.8534687, z: -0.561018}
---- !u!65 &3571482455128370935
+--- !u!65 &3081908778694319099
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3025,7 +3025,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.0898388, z: 0.038035117}
   m_Center: {x: 0.31683287, y: -0.8235223, z: -0.5324917}
---- !u!65 &3606949998056805047
+--- !u!65 &8455560072381776247
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3046,7 +3046,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.0898388, z: 0.15214047}
   m_Center: {x: 0.31683287, y: -0.82352316, z: -0.39936864}
---- !u!65 &2217233324025181196
+--- !u!65 &1770364531584351619
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3067,7 +3067,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1405712, y: 0.0898388, z: 0.2662458}
   m_Center: {x: 0.31683302, y: -0.8235226, z: -0.15214033}
---- !u!65 &4020999843590507113
+--- !u!65 &5808955824672976022
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3088,7 +3088,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.059892535, z: 0.5324916}
   m_Center: {x: 0.4105471, y: -0.80854946, z: -0.2852634}
---- !u!65 &63278984107152994
+--- !u!65 &674755838309955409
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3109,7 +3109,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.046857066, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.4339758, y: -0.5540062, z: -0.28526345}
---- !u!65 &4995941553689342686
+--- !u!65 &1747621634541692444
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3130,7 +3130,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023428533, y: 0.029946268, z: 0.5324916}
   m_Center: {x: 0.44568992, y: -0.8235225, z: -0.2852634}
---- !u!65 &2079890688155177776
+--- !u!65 &7542995023446038329
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3163,9 +3163,9 @@ GameObject:
   - component: {fileID: 6840643055342160357}
   - component: {fileID: 1047609725618429750}
   - component: {fileID: 5811032148684417911}
-  - component: {fileID: 6888487217832733635}
-  - component: {fileID: 5555639914036624854}
   - component: {fileID: 3525840930554937678}
+  - component: {fileID: 3985775490428646320}
+  - component: {fileID: 1145048055445062154}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -3181,14 +3181,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2502370645538494965}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14882609, y: -0.69126755, z: 0.69126755, w: 0.14882609}
-  m_LocalPosition: {x: 0.74093556, y: 0, z: 0.50043976}
+  m_LocalRotation: {x: -0.08617467, y: -0.70183617, z: 0.70183617, w: -0.08617467}
+  m_LocalPosition: {x: 0.72470725, y: 0, z: 0.5664972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5744538111852675762}
   m_Father: {fileID: 4130731938872279038}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 97}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 128.7}
 --- !u!33 &6840643055342160357
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3268,8 +3268,26 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!59 &6888487217832733635
+  m_CollisionDetection: 0
+--- !u!114 &3525840930554937678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2502370645538494965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbddf4b61ce1754b9bf9c082e1723f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputTimeMeasurements: 0
+  createChildGameObject: 1
+  avoidGapsInside: 1
+  avoidExceedingMesh: 1
+  boxesPerEdge: 30
+  physicsMaterialForColliders: {fileID: 0}
+--- !u!59 &3985775490428646320
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3304,11 +3322,11 @@ HingeJoint:
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5555639914036624854
+--- !u!114 &1145048055445062154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3322,33 +3340,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsSnapped: 0
   CorrectTransform:
-    Position: {x: 0.43558028, y: 0.000000059604645, z: -0.12988514}
+    Position: {x: 0.4355803, y: 0.000000059604645, z: -0.1298852}
     Rotation: {x: 90, y: 13.999992, z: 0}
-  snapPositionThreshold: 0.2
-  snapRotationThreshold: 5
+  snapPositionThreshold: 0.5
+  snapRotationThreshold: 10
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
-  dependentPiece: {fileID: 6606662719134573218}
+  dependentPiece: {fileID: 1562897168260221023}
   dependentPitch: {fileID: 0}
-  moveSpeed: 5
-  maxVelocity: 8
---- !u!114 &3525840930554937678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2502370645538494965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fbddf4b61ce1754b9bf9c082e1723f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outputTimeMeasurements: 0
-  createChildGameObject: 1
-  avoidGapsInside: 0
-  avoidExceedingMesh: 1
-  boxesPerEdge: 30
-  physicsMaterialForColliders: {fileID: 0}
+  moveSpeed: 3
+  maxVelocity: 5
 --- !u!1 &3588613975486676587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,14 +3379,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3588613975486676587}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23574626, y: 0.6666511, z: -0.6666511, w: 0.23574626}
+  m_LocalRotation: {x: 0.011106873, y: 0.70701957, z: -0.70701957, w: 0.011106873}
   m_LocalPosition: {x: -0.52301776, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4014221640641841821}
   m_Father: {fileID: 4130731938872279038}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -141.05}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -178.2}
 --- !u!33 &6368393917239374630
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3522,13 +3522,13 @@ MonoBehaviour:
   CorrectTransform:
     Position: {x: -0.52301776, y: 0, z: 0}
     Rotation: {x: 90, y: 13.999992, z: 0}
-  snapPositionThreshold: 0.2
-  snapRotationThreshold: 5
+  snapPositionThreshold: 0.5
+  snapRotationThreshold: 10
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8298359735797131408}
   dependentPitch: {fileID: 0}
-  moveSpeed: 5
-  maxVelocity: 8
+  moveSpeed: 3
+  maxVelocity: 5
 --- !u!114 &5416280407287232300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3576,10 +3576,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5155522834119339218}
-  - {fileID: 4066378547167437073}
   - {fileID: 7424580760508710901}
   - {fileID: 4450447111036181265}
+  - {fileID: 5155522834119339218}
+  - {fileID: 4066378547167437073}
   m_Father: {fileID: 592166799732461163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5302722106474055934
@@ -3751,17 +3751,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c36d4ad4cfac4c99314ab60c9228a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsSnapped: 0
+  IsSnapped: 1
   CorrectTransform:
     Position: {x: 0.15999997, y: 0, z: 0.3927431}
     Rotation: {x: 90, y: 14.288902, z: 0}
-  snapPositionThreshold: 0.2
-  snapRotationThreshold: 5
+  snapPositionThreshold: 0.5
+  snapRotationThreshold: 10
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
   dependentPitch: {fileID: 0}
-  moveSpeed: 5
-  maxVelocity: 8
+  moveSpeed: 3
+  maxVelocity: 5
 --- !u!114 &4094712820857340427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4270,11 +4270,11 @@ PrefabInstance:
     - target: {fileID: 5152334564264254698, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: 'pieces.Array.data[0]'
       value: 
-      objectReference: {fileID: 6606662719134573218}
+      objectReference: {fileID: 1562897168260221023}
     - target: {fileID: 5152334564264254698, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: 'pieces.Array.data[1]'
       value: 
-      objectReference: {fileID: 5555639914036624854}
+      objectReference: {fileID: 1145048055445062154}
     - target: {fileID: 5152334564264254698, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: 'pieces.Array.data[2]'
       value: 
