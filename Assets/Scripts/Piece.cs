@@ -1,33 +1,38 @@
 ﻿using System;
 using UnityEngine;
 
+[RequireComponent(typeof(HingeJoint))]
 public class Piece : MonoBehaviour
 {
     public bool IsSnapped = false;
-    public Piece dependentPiece;
-
-    public Pitch dependentPitch;
-
-    [SerializeField] Material _woodSnap;
-    [SerializeField] Material _woodNormal;
-    [SerializeField] Material _woodHover;
-    private Rigidbody _rb;
-    private HingeJoint _hinge;
-    private Renderer _renderer;
-
     public TransformModel CorrectTransform;
-
-
-    private bool _isDragging = false;
-    private float _dragSpeed = 200f; // tốc độ xoay của motor
 
     [Header("Snap Settings")]
     public float snapPositionThreshold = 0.2f;   // độ lệch vị trí cho phép
     public float snapRotationThreshold = 5f;    // độ lệch góc cho phép
 
-    public event Action OnPieceSnappedEvent;
+    [Header("References")]
+    public MatSO matData;
+    public Piece dependentPiece;
+    public Pitch dependentPitch;
 
-    public float offset;
+
+    //Components
+    public Rigidbody rb { get; set; }
+    private HingeJoint hinge;
+    private Renderer _renderer;
+    private Camera cam;
+
+    //Dragable
+    [Header("Physics Drag Settings")]
+    public float moveSpeed = 5f;
+    public float maxVelocity = 8f;
+
+    private bool isDragging = false;
+    private float dragDepth;
+    private Vector3 dragOffset;
+
+    public event Action OnPieceSnappedEvent;
 
     private void Awake()
     {
@@ -45,58 +50,65 @@ public class Piece : MonoBehaviour
     void Initialize()
     {
         LoadComponents();
+        HingeSetup();
     }
 
     void LoadComponents()
     {
-        if(_renderer == null)
+        cam = Camera.main;
+
+        if (_renderer == null)
             _renderer = GetComponent<Renderer>();   
-        if(_rb == null)
-            _rb = GetComponent<Rigidbody>();
-        if(_hinge == null && !IsSnapped)
-            _hinge = GetComponent<HingeJoint>();
+        if(rb == null)
+            rb = GetComponent<Rigidbody>();
+        if(hinge == null && !IsSnapped)
+            hinge = GetComponent<HingeJoint>();
         if (IsSnapped)
             Snap();
+    }
+
+    void HingeSetup()
+    {
+        if (dependentPiece != null)
+            hinge.connectedBody = dependentPiece.rb;
+        if (hinge == null)
+            return;
+        hinge.anchor = Vector3.zero;
+        hinge.axis = Vector3.forward;
+        hinge.enableCollision = true;
     }
 
     private void OnMouseDown()
     {
         if (IsSnapped) return;
-        _isDragging = true;
+        isDragging = true;
 
-        // Bật motor khi kéo
-        var motor = _hinge.motor;
-        motor.force = 100f;
-        _hinge.motor = motor;
-        _hinge.useMotor = true;
+
+        Vector3 screenPoint = cam.WorldToScreenPoint(transform.position);
+        dragDepth = screenPoint.z;
+
+        dragOffset = transform.position - GetMouseWorldPosition();
         Hover();
     }
 
-    private void OnMouseDrag()
+    private void FixedUpdate()
     {
-        if (!_isDragging || IsSnapped) return;
+        if (IsSnapped)
+            return;
+        if (!isDragging) return;
 
-        // Lấy vị trí chuột
-        float distance = Vector3.Distance(Camera.main.transform.position, transform.position);
-        Vector3 mousePos = Input.mousePosition;
-        mousePos.z = distance;
-        Vector3 worldMouse = Camera.main.ScreenToWorldPoint(mousePos);
+        Vector3 targetPos = GetMouseWorldPosition() + dragOffset;
+        Vector3 diff = targetPos - transform.position;
+        diff.Normalize();
 
-        //// Tính góc mục tiêu theo hướng chuột
-        Vector3 dir = worldMouse - transform.position;
-        dir.y = 0f;
-        dir.Normalize();
-        float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
-        Debug.DrawLine(transform.position, transform.position + dir.normalized * 2, Color.red);
-        // Hướng quay
-        float currentAngle = transform.eulerAngles.y;
-        float delta = Mathf.DeltaAngle(currentAngle, targetAngle);
+        // Set velocity theo hướng tới điểm kéo
+        rb.linearVelocity = diff * moveSpeed;
 
-        // Điều khiển motor
-        var motor = _hinge.motor;
-        motor.targetVelocity = Mathf.Clamp(delta * _dragSpeed, -500f, 500f);
-        _hinge.motor = motor;
-
+        // Giới hạn tốc độ để không bị văng quá mạnh
+        if (rb.linearVelocity.magnitude > maxVelocity)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * maxVelocity;
+        }
         TrySnap();
     }
 
@@ -107,36 +119,33 @@ public class Piece : MonoBehaviour
 
         Normal();
         // Tắt motor khi thả
-        _hinge.useMotor = false;
-        _rb.angularVelocity = Vector3.zero;
-        _isDragging = false;
-
+        isDragging = false;
+        rb.linearVelocity = Vector3.zero;
     }
 
-    float NormalizeAngle(float angle)
+    private Vector3 GetMouseWorldPosition()
     {
-        angle = angle % 360;
-        if (angle > 180)
-            angle -= 360;
-        return angle;
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = dragDepth;
+        return cam.ScreenToWorldPoint(mousePos);
     }
 
     public void Snapped()
     {
-        if(_woodSnap)
-            _renderer.material = _woodSnap;
+        if(matData)
+            _renderer.material = matData.woodSnap;
     }
 
     public void Hover()
     {
-        if(_woodHover)
-            _renderer.material = _woodHover;
+        if(matData)
+            _renderer.material = matData.woodHover;
     }
 
     public void Normal()
     {
-        if(_woodNormal)
-            _renderer.material = _woodNormal;
+        if(matData)
+            _renderer.material = matData.woodNormal;
     }
 
     private void TrySnap()
@@ -159,9 +168,7 @@ public class Piece : MonoBehaviour
         PitchEffect();
         Snapped();
 
-        if(_hinge != null)
-            _hinge.useMotor = false;
-        _rb.isKinematic = true;
+        rb.isKinematic = true;
 
         transform.position = CorrectTransform.Position;
         transform.rotation = Quaternion.Euler(CorrectTransform.Rotation);
