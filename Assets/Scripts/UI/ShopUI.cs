@@ -19,8 +19,10 @@ public class ShopUI : BasePopup
         _btnRandomMap500.onClick.AddListener(RegisterEventRandomMap500Button);
         InitShopElement();
     }
-    private void OnEnable()
+
+    public override void Show()
     {
+        base.Show();
         ReloadUI();
     }
 
