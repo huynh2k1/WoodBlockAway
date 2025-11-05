@@ -628,7 +628,7 @@ MonoBehaviour:
   mask: {fileID: 8868945618023384307}
   mainGroup: {fileID: 2737658330001098624}
   main: {fileID: 3164297585679836648}
-  targetMaskAlpha: 1
+  targetMaskAlpha: 0
   timeTween: 0.4
   typeTweenShow: 27
   typeTweenHide: 26

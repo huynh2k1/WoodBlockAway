@@ -299,18 +299,18 @@ PrefabInstance:
     - target: {fileID: 7013463776291103234, guid: 43061d20375a9944097c0143cd82f46a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7102129ce86852b46890d706ad513fdf, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7013463776291103234, guid: 43061d20375a9944097c0143cd82f46a, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7013463776291103234, guid: 43061d20375a9944097c0143cd82f46a, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7013463776291103234, guid: 43061d20375a9944097c0143cd82f46a, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7050691272538844299, guid: 43061d20375a9944097c0143cd82f46a, type: 3}
       propertyPath: m_Sprite
@@ -385,7 +385,7 @@ MonoBehaviour:
   mask: {fileID: 8868945618023384307}
   mainGroup: {fileID: 2737658330001098624}
   main: {fileID: 3164297585679836648}
-  targetMaskAlpha: 1
+  targetMaskAlpha: 0.9
   timeTween: 0.3
   typeTweenShow: 27
   typeTweenHide: 26

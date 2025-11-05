@@ -1,5 +1,4 @@
-﻿using UnityEditor.PackageManager;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerPrefData
 {
@@ -36,15 +35,19 @@ public class PlayerPrefData
     {
         PlayerPrefs.SetInt(ConstUtils.BGUNLOCK + id, value ? 1 : 0);
     }
+
+    public static float Sound
+    {
+        get => PlayerPrefs.GetFloat("SOUND", 1f);
+        set => PlayerPrefs.SetFloat("SOUND", value);
+    }
+
+    public static float Music
+    {
+        get => PlayerPrefs.GetFloat("MUSIC", 0.7f);
+        set => PlayerPrefs.SetFloat("MUSIC", value);
+    }
 }
-
-/// <summary>
-/// STATIC CLASS 
-/// Không thể kế thừa hoặc bị kế thừa
-/// Không thế khởi tạo new Class()
-/// Chỉ chứa static members
-/// </summary>
-
 public class ConstUtils
 {
     public static string CURLEVEL = "CURLEVEL";

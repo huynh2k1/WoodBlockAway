@@ -14,6 +14,7 @@ public class GameControl : BaseGameCtrl
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         Home();
     }
 
@@ -74,7 +75,7 @@ public class GameControl : BaseGameCtrl
     {
         PlayerPrefData.Coin += 100;
         CoinCtrl.I.UpdateCoin();
-
+        SFXCtrl.I.PlaySound(TypeSound.WIN);
         State = GameState.None;
         levelCtrl.CheckIncreaseLevel();
         uiCtrl.Show(UIType.Win);

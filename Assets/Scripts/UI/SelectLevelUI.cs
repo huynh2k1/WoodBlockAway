@@ -11,9 +11,9 @@ public class SelectLevelUI : BasePopup
         base.Awake();
         InitButtonLevel();
     }
-
-    private void OnEnable()
+    public override void Show()
     {
+        base.Show();
         for (int i = 0; i < listBtnLevel.Length; i++)
         {
             listBtnLevel[i].CheckUnlock();

@@ -1130,8 +1130,8 @@ Rigidbody:
   m_GameObject: {fileID: 2728347326839166248}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1207,7 +1207,6 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 5467202530859978993}
-  dependentPitch: {fileID: 0}
   moveSpeed: 2
   maxVelocity: 2
 --- !u!114 &6036083393138973553
@@ -1865,8 +1864,8 @@ Rigidbody:
   m_GameObject: {fileID: 5270487022143452729}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1942,7 +1941,6 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8532962455008343248}
-  dependentPitch: {fileID: 0}
   moveSpeed: 2
   maxVelocity: 2
 --- !u!114 &5322500752263680535
@@ -3027,8 +3025,8 @@ Rigidbody:
   m_GameObject: {fileID: 7043132437251901352}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -3104,7 +3102,6 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 2785066789477168081}
-  dependentPitch: {fileID: 0}
   moveSpeed: 2
   maxVelocity: 2
 --- !u!114 &1207471183867114581
@@ -3225,8 +3222,8 @@ Rigidbody:
   m_GameObject: {fileID: 7641562910228919341}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -3302,7 +3299,6 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  dependentPitch: {fileID: 0}
   moveSpeed: 2
   maxVelocity: 2
 --- !u!114 &6979040228057326018
@@ -3459,8 +3455,8 @@ Rigidbody:
   m_GameObject: {fileID: 8752910231152119098}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -3536,7 +3532,6 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8532962455008343248}
-  dependentPitch: {fileID: 0}
   moveSpeed: 2
   maxVelocity: 2
 --- !u!114 &6852480530406764559

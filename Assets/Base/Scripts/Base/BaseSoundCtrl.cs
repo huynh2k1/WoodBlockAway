@@ -27,44 +27,43 @@ namespace H_Utils
 
         public void UpdateVolume()
         {
-            UpdateVolumeSounds();
-            UpdateVolumeMusic();
+            OnChangeVolumnSounds();
+            OnChangeVolumnMusic();
         }
 
-        public virtual void UpdateVolumeSounds()
+        public virtual void OnChangeVolumnSounds()
         {
             foreach (var sound in sound_sources)
             {
-                //sound.volume = PrefData.Sound;
+                sound.volume = PlayerPrefData.Sound;
             }
         }
 
-        public virtual void UpdateVolumeMusic()
+        public virtual void OnChangeVolumnMusic()
         {
-            //music_source.volume = PrefData.Music;
+            music_source.volume = PlayerPrefData.Music;
         }
 
 
-        public virtual void PlaySoundByType(TypeSound type)
+        public virtual void PlaySound(TypeSound type)
         {
         }
 
 
 
-        public virtual void PlaySound(AudioClip clip)
+        public virtual void PlayClip(AudioClip clip)
         {
             var source = queue_sources.Dequeue();
             if (source == null)
                 return;
-            //source.volume = PrefData.Sound;
+            source.volume = PlayerPrefData.Sound;
             source.PlayOneShot(clip);
             queue_sources.Enqueue(source);
         }
 
-        public virtual void PlayMusic(float volume = 0.7f)
+        public virtual void StartMusic()
         {
             music_source.clip = music_sound;
-            //music_source.volume = PrefData.Music;
             music_source.Play();
         }
 
@@ -73,8 +72,11 @@ namespace H_Utils
             music_source.Stop();
         }
     }
-    public enum TypeSound
-    {
     
-    }
+}
+public enum TypeSound
+{
+    CLICK,
+    WIN,
+    WOODSUCCESS,
 }

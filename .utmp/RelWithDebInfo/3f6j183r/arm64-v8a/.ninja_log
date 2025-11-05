@@ -1,0 +1,12 @@
+# ninja log v5
+39	403	7840430444650646	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	371776ea02ce1002
+404	598	7840430446557288	D:/MyProjects/_OS/WoodBlockAway/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f6j183r/obj/arm64-v8a/libswappywrapper.so	67d43ba570fab85d
+21	1403	7840430454385131	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	77550ce704406a8f
+13	1456	7840430455010616	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9994ec4324157e5f
+9	1470	7840430455168544	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2e9be02f5e5989ba
+33	1491	7840430455420412	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9460d7e39456bcc
+5	1615	7840430456552370	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7a2bb0bc57d06c99
+27	1636	7840430456749951	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4c6180f4887186c9
+17	1973	7840430460240176	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	14d33470f25a85eb
+0	2270	7840430463005973	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	d353dc10ab98de69
+2270	2444	7840430464917675	D:/MyProjects/_OS/WoodBlockAway/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3f6j183r/obj/arm64-v8a/libgame.so	d904214d1d4dd3cf

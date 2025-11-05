@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NaughtyAttributes;
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(HingeJoint))]
@@ -14,7 +15,7 @@ public class Piece : MonoBehaviour
     [Header("References")]
     public MatSO matData;
     public Piece dependentPiece;
-    public Pitch dependentPitch;
+    public Pitch dependentPitch { get; set; }
 
 
     //Components
@@ -67,21 +68,36 @@ public class Piece : MonoBehaviour
             Snap();
     }
 
+    [Button("Initialize Hinge & Rigid")]
     void HingeSetup()
     {
+        RigidbodySetup();
         if (IsSnapped)
             return;
-        if (dependentPiece != null)
-            hinge.connectedBody = dependentPiece.rb;
         if (hinge == null)
-            return;
+            hinge = GetComponent<HingeJoint>();
         hinge.anchor = Vector3.zero;
         hinge.axis = Vector3.forward;
         hinge.enableCollision = true;
+        hinge.enablePreprocessing = false;
+
+    }
+
+    void RigidbodySetup()
+    {
+        if (rb == null)
+            rb = GetComponent<Rigidbody>();
+        if(IsSnapped)
+            rb.isKinematic = true;
+        rb.linearDamping = 10f; // tương đương drag
+        rb.angularDamping = 10f;    
+        rb.useGravity = false;
     }
 
     private void OnMouseDown()
     {
+        if (GameControl.I.State != GameState.Playing)
+            return;
         if (IsSnapped) return;
         isDragging = true;
 
@@ -94,6 +110,8 @@ public class Piece : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (GameControl.I.State != GameState.Playing)
+            return;
         if (IsSnapped)
             return;
 
@@ -117,6 +135,8 @@ public class Piece : MonoBehaviour
 
     private void OnMouseUp()
     {
+        if (GameControl.I.State != GameState.Playing)
+            return;
         if (IsSnapped)
             return;
 
@@ -159,9 +179,9 @@ public class Piece : MonoBehaviour
         float angleDiff = Quaternion.Angle(transform.rotation, Quaternion.Euler(CorrectTransform.Rotation));
 
         //float angleDiff = Mathf.Abs(Mathf.DeltaAngle(transform.eulerAngles.y, CorrectTransform.Rotation.y));
-        Debug.Log($"Distance: {distance}, angleDiff: {angleDiff}");
         if (!IsSnapped && distance <= snapPositionThreshold && angleDiff <= snapRotationThreshold)
         {
+            SFXCtrl.I.PlaySound(TypeSound.WOODSUCCESS);
             Snap();
         }
     }
@@ -179,7 +199,6 @@ public class Piece : MonoBehaviour
         transform.rotation = Quaternion.Euler(CorrectTransform.Rotation);
 
         OnPieceSnappedEvent?.Invoke();
-        Debug.Log($"✅ {gameObject.name} snapped!");
     }
 
 

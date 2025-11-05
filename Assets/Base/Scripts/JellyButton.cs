@@ -126,6 +126,6 @@ public class JellyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        //SoundManager.I.PlaySoundByType(TypeSound.CLICK);
+        SFXCtrl.I.PlaySound(TypeSound.CLICK);
     }
 }

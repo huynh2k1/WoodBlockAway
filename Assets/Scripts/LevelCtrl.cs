@@ -17,6 +17,8 @@ public class LevelCtrl : MonoBehaviour
         if(PlayerPrefData.CurLevel < listLevel.Length - 1)
         {
             PlayerPrefData.CurLevel++;
+            if (PlayerPrefData.CurLevel > PlayerPrefData.CurLevelUnlock) 
+                PlayerPrefData.CurLevelUnlock = PlayerPrefData.CurLevel;
         }
         else
         {

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ScrollMenuCtrl : MonoBehaviour, IEndDragHandler
+public class ScrollMenuCtrl : MonoBehaviour
 {
     [SerializeField] int maxPage;
     [SerializeField] RectTransform levelPagesRect;
@@ -62,7 +62,6 @@ public class ScrollMenuCtrl : MonoBehaviour, IEndDragHandler
 
     void MovePage()
     {
-        Debug.Log("Target: " + targetPos);
         
         targetPos = pageStep * (currentPage - 1);
         levelPagesRect.DOKill();
@@ -84,25 +83,4 @@ public class ScrollMenuCtrl : MonoBehaviour, IEndDragHandler
         _btnPrev.gameObject.SetActive(isActive);
     }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        ////nếu khoảng cách vị trí hiện tại - vị trí ban đầu > ngưỡng vuốt
-        //if (Mathf.Abs(eventData.position.x - eventData.pressPosition.x) > dragThreshould)
-        //{
-        //    if (eventData.position.x > eventData.pressPosition.x)
-        //    {
-        //        Debug.Log("Vuốt sang phải");
-        //        Previous();
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("Vuốt sang trái");
-        //        Next();
-        //    }
-        //}
-        //else
-        //{
-        //    MovePage();
-        //}
-    }
 }
