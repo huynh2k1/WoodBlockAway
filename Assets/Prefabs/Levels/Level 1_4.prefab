@@ -172,8 +172,7 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 5
   maxVelocity: 5
 --- !u!65 &7200866392233619146
 BoxCollider:
@@ -393,8 +392,7 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 5
   maxVelocity: 5
 --- !u!59 &748912246288205617
 HingeJoint:
@@ -611,8 +609,7 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 3948213330535014855}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 5
   maxVelocity: 5
 --- !u!65 &2295478374247575453
 BoxCollider:
@@ -832,8 +829,7 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 1075257753527530019}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 5
   maxVelocity: 5
 --- !u!1001 &2948179910025267724
 PrefabInstance:

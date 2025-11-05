@@ -232,8 +232,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &1561153843969294186
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,8 +429,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8743716712200200766}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &1737204515849846187
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,8 +626,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 7945101674865873894}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &3093425551891616897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,8 +1426,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &3517376069260913652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,8 +3740,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 5046941655322132751}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &7721205093368688255
 GameObject:
   m_ObjectHideFlags: 0
@@ -3937,8 +3937,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &7987504409285968434
 GameObject:
   m_ObjectHideFlags: 0
@@ -5441,7 +5441,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 597652737136874044, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_Name
-      value: Level 9
+      value: Level 9_Easy
       objectReference: {fileID: 0}
     - target: {fileID: 4314220555941972533, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_LocalPosition.x

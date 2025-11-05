@@ -195,8 +195,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8480620420262957025}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &199228002235207082
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 6223099258726569488}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &1731908222409599639
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,8 +589,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &1862955752436042029
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,8 +824,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 2925096248958485586}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &3712861048947242393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,8 +1492,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &4752532356966292716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,8 +1689,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &4828098790896986646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,8 +3805,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 7002660480071266177}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &8620640678870567023
 GameObject:
   m_ObjectHideFlags: 0

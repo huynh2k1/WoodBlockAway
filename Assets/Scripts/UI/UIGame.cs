@@ -6,6 +6,8 @@ public class UIGame : PanelBase
 {
     public override UIType Type => UIType.Game;
 
+    [SerializeField] Text _txtLevel;
+
     [SerializeField] Button _btnHome;
     [SerializeField] Button _btnSetting;
     [SerializeField] Button _btnReplay;
@@ -42,5 +44,10 @@ public class UIGame : PanelBase
     void UserClickShop()
     {
         EventClickShop?.Invoke();
+    }
+
+    public void UpdateTextLevel()
+    {
+        _txtLevel.text = $"Level {PlayerPrefData.CurLevel + 1}";
     }
 }

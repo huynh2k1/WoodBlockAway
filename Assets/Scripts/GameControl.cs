@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using DG.Tweening;
 using UnityEngine;
 
 public class GameControl : BaseGameCtrl
@@ -54,6 +54,7 @@ public class GameControl : BaseGameCtrl
     public override void PlayGame()
     {
         State = GameState.Playing;
+        uiCtrl.UpdateTextLevel();
         uiCtrl.Show(UIType.Game);
         uiCtrl.Hide(UIType.Home);
         levelCtrl.InitLevel();
@@ -61,12 +62,14 @@ public class GameControl : BaseGameCtrl
 
     public override void ReplayGame()
     {
+        uiCtrl.UpdateTextLevel();
         State = GameState.Playing;
         levelCtrl.InitLevel();
     }
 
     public override void NextGame()
     {
+        uiCtrl.UpdateTextLevel();
         State = GameState.Playing;
         levelCtrl.InitLevel();
     }
@@ -78,7 +81,10 @@ public class GameControl : BaseGameCtrl
         SFXCtrl.I.PlaySound(TypeSound.WIN);
         State = GameState.None;
         levelCtrl.CheckIncreaseLevel();
-        uiCtrl.Show(UIType.Win);
+        DOVirtual.DelayedCall(1f, () =>
+        {
+            uiCtrl.Show(UIType.Win);
+        });
     }
 
     public void Setting()

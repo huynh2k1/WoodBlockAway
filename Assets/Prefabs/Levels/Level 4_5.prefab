@@ -1207,8 +1207,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 5467202530859978993}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &6036083393138973553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,8 +1941,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8532962455008343248}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &5322500752263680535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3102,8 +3102,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 2785066789477168081}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &1207471183867114581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3299,8 +3299,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &6979040228057326018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3532,8 +3532,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 8532962455008343248}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &6852480530406764559
 MonoBehaviour:
   m_ObjectHideFlags: 0

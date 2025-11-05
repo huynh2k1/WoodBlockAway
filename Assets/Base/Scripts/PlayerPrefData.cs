@@ -16,7 +16,7 @@ public class PlayerPrefData
 
     public static int Coin
     {
-        get => PlayerPrefs.GetInt(ConstUtils.COIN, 10000);
+        get => PlayerPrefs.GetInt(ConstUtils.COIN, 0);
         set => PlayerPrefs.SetInt(ConstUtils.COIN, value);
     }
 

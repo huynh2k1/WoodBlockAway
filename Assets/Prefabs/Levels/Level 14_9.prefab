@@ -917,8 +917,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &2965077736419877560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,8 +1114,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 313766760523662760}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &3225898748702392088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,8 +1311,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &4042289742906014196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,8 +2516,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 4249360061089593509}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &4567128364324804123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,8 +2713,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &4595579333669178472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,8 +2950,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &5197337122277994499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3147,8 +3147,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 5288447208820978857}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &5928006720083692952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,8 +3344,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &5979141035328667911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,8 +3990,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!1 &8267843192954313226
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,7 +5424,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 597652737136874044, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_Name
-      value: Level Variant
+      value: Level 14(9)
       objectReference: {fileID: 0}
     - target: {fileID: 4314220555941972533, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1660,9 +1660,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 6646540487282068512}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &3470952307053717837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2395,9 +2394,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 6192469410333216266}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &889154028362615116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3284,9 +3282,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 2316234340356430724}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &431924195011982293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3482,9 +3479,8 @@ MonoBehaviour:
   snapRotationThreshold: 5
   matData: {fileID: 11400000, guid: c61016df7bc3e424bb38d8e7e82d7655, type: 2}
   dependentPiece: {fileID: 0}
-  dependentPitch: {fileID: 0}
-  moveSpeed: 2
-  maxVelocity: 2
+  moveSpeed: 5
+  maxVelocity: 5
 --- !u!114 &2413942544337462454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3513,7 +3509,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 597652737136874044, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_Name
-      value: Level 3
+      value: Level 2
       objectReference: {fileID: 0}
     - target: {fileID: 4314220555941972533, guid: 95ce4c8ad4118424cacc247742b24bfd, type: 3}
       propertyPath: m_LocalPosition.x

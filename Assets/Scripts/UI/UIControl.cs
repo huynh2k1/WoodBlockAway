@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class UIControl : BaseUICtrl
 {
+    [SerializeField] UIGame _uiGame;
     private void OnEnable()
     {
         UIHome.OnClickHowToPlayButton += ShowHowToPlay;
@@ -23,5 +24,10 @@ public class UIControl : BaseUICtrl
     void ShowSelectLevel()
     {
         Show(UIType.SelectLevel);
+    }
+
+    public void UpdateTextLevel()
+    {
+        _uiGame.UpdateTextLevel();
     }
 }
